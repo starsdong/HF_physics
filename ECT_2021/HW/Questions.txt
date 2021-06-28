@@ -1,0 +1,32 @@
+Pre-Meeting Calculation Requests
+ --------------------------------
+
+1) Provide Heavy-Flavor Transport Coefficients (mu_B=0)
+   ----------------------------------------------------
+(a) Current best estimtate of Ds(2\piT) as function of T over available T-range (both charm and bottom, if available).
+(b) Normalized momentum dependence of friction coefficient, A(p;T)/A(p=0;T), for current best estimate.
+(c) Table of current best estimates of charm friction amd momentum-diffusion coefficients for p=0-40GeV 
+  (in steps of dp=0.2GeV) and T=0.16-0.6GeV (steps dT=0.02GeV) for mu_B=0. The idea is to run them through a Langevin 
+  simulation in a common hydrodynamic medium evolution.
+
+
+
+2) Assess Hadronization and Hadronic Phase (test case: 30-50% 5TeV PbPb collisions)
+   ------------------------------------------------------------------------- 
+(a) Compute H_AA(pT;T_H) = R_AA^H_Q (pT;T_H) / R_AA^Q(pT;T_H) , the ratio of the R_AA of the heavy meson (H_Q) just after
+  hadronization to the R_AA of the heavy quark (Q) just before hadronization, for H_Q=D,Lambda_c (as available) and Q=c.
+(b) The same as (a) but for the elliptic flow, v2: H_v2(pT;T_H) = v2^H_Q (pT;T_H) / v2^Q(pT;T_H). 
+(c) Compute H_AA and H_v2 ratios for D-meson spectra at kinetic freezeout over those right after hadronization (if applicable).
+
+
+3) Transport Simluations with Imposed Coefficients
+   ------------------------------------------------
+(a) Renormalize the charm-quark transport coefficients with a temperature-dependent but momentum-indepedent K 
+   factor, K(T), as to obtain a temperature-independent value of D_s (2piT)  == 4  (for Langevin approaches,  
+   D_s  = T / [m_Q A(p=0)]); 
+   then compute R_AA and v2 of charm quarks right before hadronization for 30-50% 5TeV PbPb collisions within your model. 
+
+(b) As an optional assignment (time permitting), to compare transport coefficients from different models: 
+  Renormalize current charm-quark transport coefficient, A(p;T), qhat/T^3 for a common R_AA in a fixed brick 
+  problem (as in Fig. 7 in Phys. Rev. C99 (2019) 054907);
+  then compute R_AA and v2 of charm quarks right before hadronization for 30-50% 5TeV PbPb collisions within your model. 
